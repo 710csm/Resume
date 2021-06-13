@@ -25,6 +25,10 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 졸업 예정일: 2021.02    
 학점: 3.77/4.5    
 
+강릉명륜고등학교    
+입학일: 2012.03    
+좁업일: 2015.02     
+
 ---
 
 ### 💻인턴십
@@ -40,8 +44,8 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 ### 📌기술   
 |Type|Name|
 |------|---|
-|Language|Java, Python, Swift, SQL|
-|Technic|Android, iOS, Git|
+|Language|Swift, Java, Python, SQL|
+|Technic|iOS, Android, Git, Zeplin|
 |Database|MySQL|
 
 ---
