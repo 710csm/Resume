@@ -7,8 +7,9 @@
 [4.기술](#기술)    
 [5.프로젝트](#프로젝트)    
 [6.대외 활동](#대외-활동)    
-[7.수상내역](#수상-내역)    
-[8.자격증 및 어학](#자격증-및-어학)       
+[7.자기소개서](#자기소개서)    
+[8.수상내역](#수상-내역)    
+[9.자격증 및 어학](#자격증-및-어학)       
 
 ---
 
@@ -21,13 +22,13 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
 ### 🎓학력 사항   
 한림대학교 빅데이터학과   
-입학일: 2015.03   
-졸업 예정일: 2021.02    
+입학: 2015.03   
+졸업: 2021.02    
 학점: 3.77/4.5    
 
 강릉명륜고등학교    
-입학일: 2012.03    
-좁업일: 2015.02     
+입학: 2012.03    
+좁업: 2015.02     
 
 ---
 
@@ -46,13 +47,27 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 |------|---|
 |Language|Swift, Java, Python, SQL|
 |Technic|iOS, Android, Git, Zeplin|
-|Database|MySQL|
 
 ---
 
 ### 🗂프로젝트
 
-- **1. PHAS**
+- **1. Diary**
+    - 설명: FSCalendar 라이브러리와 Firebase를 활용한 간단한 일기 작성 애플리케이션
+    - 인원 구성: iOS 1
+    - 맡은 파트: UI 및 기능 구현
+    - 사용 기술: Swift, iOS, Firebase
+
+    - 개발 내용   
+        - FSCalendar를 사용하여 달력을 만들어 해당 하는 날짜에 일기를 작성할 수 있도록 UI를 구현   
+          Firebase를 활용하여 DB에 값을 저장하고 불러올 수 있도록 구현   
+          작성한 일기를 수정 및 공유할 수 있도록 구현   
+
+    - Github
+
+    [710csm/iOS_Diary](https://github.com/710csm/iOS_Diary)
+
+- **2. PHAS**
     - 설명: 강아지의 심음을 측정 및 분석을 통한 건강 상태 이상 유무 파악 시스템    
     - 인원 구성: Andorid 2 / Back-end 2  
     - 맡은 파트: 안드로이드 개발 및 딥러닝 파트    
@@ -68,7 +83,7 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
         [2020-Hallym-Capstone-Design-Team-PHAS](https://github.com/2020-Hallym-Capstone-Design-Team-PHAS)
 
-- **2. Heart Dog**
+- **3. Heart Dog**
     - 설명: 안드로이드와 아두이노를 사용한 강아지 헬스케어 시스템
     - 인원 구성: Android 2 / Arduino 1 / Back-end 1
     - 맡은 파트: 안드로이드 개발
@@ -84,7 +99,7 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
         [HEART-DOG](https://github.com/HEART-DOG)
 
-- **3. RED**
+- **4. RED**
     - 설명: 아두이노와 센서를 이용하여 소리에 반응하는 LED 이퀄라이저
     - 인원 구성: Android, Arduino 2
     - 맡은 파트: 안드로이드 및 아두이노 개발
@@ -100,7 +115,7 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
         [710csm/2018_RED_Project](https://github.com/710csm/2018_RED_Project)
 
-- **4. Isaac**
+- **5. Isaac**
     - 설명: PC 게임인 아이작을 모바일 버전으로 간단하게 구현
     - 인원 구성: Android 4
     - 맡은 파트: 게임 캐릭터 이동 및 아이템 생성 공격 등
@@ -115,31 +130,32 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
     - Github
 
         [710csm/Isaac_Android_Project](https://github.com/710csm/Isaac_Android_Project)
-
-- **5. Diary**
-    - 설명: FSCalendar 라이브러리와 Firebase를 활용한 간단한 일기 작성 애플리케이션
-    - 인원 구성: iOS 1
-    - 맡은 파트: UI 및 기능 구현
-    - 사용 기술: Swift, iOS, Firebase
-
-    - 개발 내용   
-        - FSCalendar를 사용하여 달력을 만들어 해당 하는 날짜에 일기를 작성할 수 있도록 UI를 구현   
-          Firebase를 활용하여 DB에 값을 저장하고 불러올 수 있도록 구현   
-          작성한 일기를 수정 및 공유할 수 있도록 구현   
-
-    - Github
-
-    [710csm/iOS_Diary](https://github.com/710csm/iOS_Diary)
-
+        
 ---
 
 ### 🤝대외 활동   
    
+**1. 씨애랑**   
 "씨애랑"은 한림대학교 교내 학술 동아리로 안드로이드, 임베디드, 게임 분야에 대해 공부하는 동아리 입니다. 저는 이 동아리에서 안드로이드 팀의 팀장을 했습니다. 저희 팀은 40명 정도로 한 학과 규모였습니다. 많은 신입생과 재학생을 이끌고 멘토링을 진행하면서 리더쉽에 대해 배울 수 있는 기회였습니다.
 
 동아리에서 학기중에는 신입생들에게 자바를,  여름방학에는 안드로이드 스튜디오의 사용법과 간단한 어플을 만드는 방법을 멘토링합니다. 처음에는 어떻게 교육을 진행하고 어떤 자료를 사용해야 할지 고민도 많았습니다. 하지만 재학생들과 함께 고민하여 자료를 만들고 신입생들의 수준별로 과제를 제공해 누구 하나 뒤쳐지지 않도록 교육을 했습니다.  
 
 매년 말에는 동아리에서 배운것을 사용하여 동아리원들끼리 팀을 구성하거나 개인별로 소프트웨어 전시회를 진행합니다. 전시회를 진행하면서 팀별로 회의를 진행 하면서 신입생과 재학생들이 부족한  부분을 지적해주고 모르는것이 있으면 조언을 해주는 방식으로 진행을 했습니다. 저희는 이런 sw전시회를 통해 프로젝트를 직접 해보고 팀별로 소통하고 개발해 나가는 방법을 몸소 체험하고 있습니다.
+
+**2. iOS 스터디**    
+현재 회사에서 혼자 개발을 하고 있습니다. 그래서 협업을 해볼 기회가 부족해 스터디에서 프로젝트를 해보기로 생각했습니다. 앱을 기획할 때 카카오 오븐과 Figma과 같은 협업 툴을 활용해 앱의 디자인을 했습니다. Slack, Notion, Git을 활용해 개발 진행 사항을 공유하고 git push, pull request 등의 알림을 받아 확인 했습니다. 또한 SwiftLint를 활용해 코딩 컨벤션을 하고 룰 회의를 하기도 했습니다. 앱 기능은 실제로 크게 어려운 부분은 없지만 여러명이서 같이 공부하고 도와주며 프로젝트를 진행하고 있습니다. 스터디를 통해 앱의 초기 기획부터 디자인 그리고 서버 개발자와 데이터베이스 테이블 작성, API 명세서를 작성하는 기회도 있었습니다. 
+
+---
+
+### 자기소개서
+
+**성장과정 및 개인특성**   
+
+**성공 및 실패사례**   
+
+
+**특기사항**   
+
 
 ---
 
@@ -148,9 +164,6 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 - **2020.06  교내 캡스톤디자인 경진 대회 2등**
 - **2019.11 강원 ICT분야 경진대회 장려상**
 - **2019.09** **강원아이디어 해커톤 대상**
-
-    - [710csm/2019_Gangwon_Idea_-HACKATHON-](https://github.com/710csm/2019_Gangwon_Idea_-HACKATHON-)
-
 - **2018.11 교내 소프트웨어융합대학 해커톤 대상**
 
 ---
