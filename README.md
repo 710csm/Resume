@@ -13,14 +13,15 @@
 
 ---
 
-### 🧑🏽기본 인적사항
+### 기본 인적사항
 성명: 최승명   
 생년월일: 1996.07.10   
 이메일: 710csm@naver.com      
 전화번호: 010-3649-1071     
-Github 주소: [https://github.com/710csm](https://github.com/710csm)
+Github 주소: [https://github.com/710csm](https://github.com/710csm)   
+TIL 주소: https://stoic-noether-07ee17.netlify.app/#/
 
-### 🎓학력 사항   
+### 학력 사항   
 한림대학교 빅데이터학과   
 입학: 2015.03   
 졸업: 2021.02    
@@ -32,25 +33,26 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
 ---
 
-### 💻인턴십
+### 인턴십
 
 회사명: Seniors Resource Alliance   
 인턴 기간: 2020.01 ~ 2020.01     
 업무: MS Access를 활용한 회사 내 고객 데이터베이스 수정 및 기능 추가    
 회사 웹 주소: [https://www.seniorresourcealliance.org/](https://www.seniorresourcealliance.org/)    
-설명: 한림대학교 소프트웨어 융합 대학에서 진행한 해외 인턴쉽 프로그램으로 미국 플로리다에서 약 한달간 인턴 활동을 했습니다.      
+설명: 한림대학교 소프트웨어 융합 대학에서 진행한 해외 인턴쉽 프로그램으로 미국 플로리다에서 약 한달간 인턴 활동     
 
 ---
 
-### 📌기술   
+### 기술   
 |Type|Name|
 |------|---|
 |Language|Swift, Java, Python, SQL|
-|Technic|iOS, Android, Git, Zeplin|
+|Technic|iOS, Android, Deep Learning|
+|Collaboration|Git, Slack, Zeplin, Figma, Notion|
 
 ---
 
-### 🗂프로젝트
+### 프로젝트
 
 - **1. Diary**
     - 설명: FSCalendar 라이브러리와 Firebase를 활용한 간단한 일기 작성 애플리케이션
@@ -60,14 +62,42 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
     - 개발 내용   
         - FSCalendar를 사용하여 달력을 만들어 해당 하는 날짜에 일기를 작성할 수 있도록 UI를 구현   
-          Firebase를 활용하여 DB에 값을 저장하고 불러올 수 있도록 구현   
-          작성한 일기를 수정 및 공유할 수 있도록 구현   
+        - Firebase를 활용하여 DB에 값을 저장하고 불러올 수 있도록 구현   
+        - 작성한 일기를 수정 및 공유할 수 있도록 구현   
 
     - Github
 
-    [710csm/iOS_Diary](https://github.com/710csm/iOS_Diary)
+        https://github.com/710csm/iOS_Diary
 
-- **2. PHAS**
+
+- **2. Koktail**
+    - 설명: 사용자의 취향을 파악해 칵테일을 추천해주는 애플리케이션 
+    - 인원 구성: iOS 4, back-end 1
+    - 맡은 파트: 환경설정, 찜목록, 지도 등
+    - 사용 기술: Swift, iOS, Firebase, groom   
+    
+    - 특이사항
+       - Gitgub에서 Pull Request를 통해 코드 리뷰 및 merge
+       - SwiftLint를 활용한 코딩 컨벤션  
+       - Slack, Notion, Figma를 활용한 협업
+       - 구름 서버를 활용한 서버 개발
+       - API 명세서 작성
+       - RxSwift, MVVM 적용 및 SnapKit, Moya 등의 라이브러리 활용 
+
+    - 개발 내용   
+        - Firebase를 사용하여 이메일 회원가입 및 로그인 구현
+        - 애플, 카카오 소셜 로그인 구현
+        - 서버와 통신을 통해 칵테일 정보 받아오기 및 칵테일 추천
+        - Google Map, Google Place Api를 통해 사용자 주변 칵테일 바 검색
+        - 찜목록을 통해 사용자가 좋아하는 칵테일 리스트 구현
+        - 환경설정에서 앱 버전 로그아웃 오픈 소스 라이센스 확인
+          
+    - Github
+        
+        https://github.com/Koktail/Koktail
+
+
+- **3. PHAS**
     - 설명: 강아지의 심음을 측정 및 분석을 통한 건강 상태 이상 유무 파악 시스템    
     - 인원 구성: Andorid 2 / Back-end 2  
     - 맡은 파트: 안드로이드 개발 및 딥러닝 파트    
@@ -81,9 +111,10 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
     - Github
 
-        [2020-Hallym-Capstone-Design-Team-PHAS](https://github.com/2020-Hallym-Capstone-Design-Team-PHAS)
+        https://github.com/2020-Hallym-Capstone-Design-Team-PHAS
 
-- **3. Heart Dog**
+
+- **4. Heart Dog**
     - 설명: 안드로이드와 아두이노를 사용한 강아지 헬스케어 시스템
     - 인원 구성: Android 2 / Arduino 1 / Back-end 1
     - 맡은 파트: 안드로이드 개발
@@ -91,29 +122,14 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
     - 개발 내용   
         - 안드로이드 스튜디오를 활용하여 어플리케이션의 UI 구현   
-          심장 센서를 사용하여 실시간으로 강아지의 심작박동을 어플리케이션에 출력   
-          OpenWeatherMap API와 REST API를 사용하여 날씨 정보 출력   
-          위치 정보 센서와 Google Map API를 사용해 현재 위치를 받아오는 기능 구현   
+        - 심장 센서를 사용하여 실시간으로 강아지의 심작박동을 어플리케이션에 출력   
+        - OpenWeatherMap API와 REST API를 사용하여 날씨 정보 출력   
+        - 위치 정보 센서와 Google Map API를 사용해 현재 위치를 받아오는 기능 구현   
 
     - Github
 
-        [HEART-DOG](https://github.com/HEART-DOG)
+        https://github.com/HEART-DOG
 
-- **4. RED**
-    - 설명: 아두이노와 센서를 이용하여 소리에 반응하는 LED 이퀄라이저
-    - 인원 구성: Android, Arduino 2
-    - 맡은 파트: 안드로이드 및 아두이노 개발
-    - 사용 기술: Java, Android Studio, C++, Arduino
-
-    - 개발 내용   
-        - 아두이노 우노와 마이크 센서를 사용해 하드웨어 구성   
-          센서에 소리가 인식되면 그 주파수에 맞게 LED가 반응   
-          아두이노에 블루투스 모듈을 추가해 안드로이드와 통신   
-          LED의 불빛을 변경할 수 있는 어플리케이션 구현   
-
-    - Github
-
-        [710csm/2018_RED_Project](https://github.com/710csm/2018_RED_Project)
 
 - **5. Isaac**
     - 설명: PC 게임인 아이작을 모바일 버전으로 간단하게 구현
@@ -123,17 +139,17 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
     - 개발 내용   
         - 이클립스에서 안드로이드 어플리케이션의 UI 구현   
-          조이스틱을 써서 게임 캐릭터를 이동시킬 수 있도록 구현   
-          공격 버튼을 누르면 플레이어가 적을 공격할 수 있도록 구현   
-          아이템을 흭득시 캐릭터의 능력 강화하는 기능 구현   
+        - 조이스틱을 써서 게임 캐릭터를 이동시킬 수 있도록 구현   
+        - 공격 버튼을 누르면 플레이어가 적을 공격할 수 있도록 구현   
+        - 아이템을 흭득시 캐릭터의 능력 강화하는 기능 구현   
 
     - Github
 
-        [710csm/Isaac_Android_Project](https://github.com/710csm/Isaac_Android_Project)
+        https://github.com/710csm/Isaac_Android_Project
         
 ---
 
-### 🤝대외 활동   
+### 대외 활동   
    
 **1. 씨애랑**   
 "씨애랑"은 한림대학교 교내 학술 동아리로 안드로이드, 임베디드, 게임 분야에 대해 공부하는 동아리 입니다. 저는 이 동아리에서 안드로이드 팀의 팀장을 했습니다. 저희 팀은 40명 정도로 한 학과 규모였습니다. 많은 신입생과 재학생을 이끌고 멘토링을 진행하면서 리더쉽에 대해 배울 수 있는 기회였습니다.
@@ -159,7 +175,7 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
 ---
 
-### 🏆수상 내역
+### 수상 내역
 
 - **2020.06  교내 캡스톤디자인 경진 대회 2등**
 - **2019.11 강원 ICT분야 경진대회 장려상**
@@ -168,7 +184,7 @@ Github 주소: [https://github.com/710csm](https://github.com/710csm)
 
 ---
 
-### 📃자격증 및 어학
+### 자격증 및 어학
 
 - Microsoft Office Specialist 2016 Master / 취득일: 2019.12.02 / 발급기관: Microsoft
 - 영어 / TOEIC / 점수: 680 / 응시일: 2019.03.16
